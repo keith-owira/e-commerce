@@ -21,7 +21,7 @@ You will need MySQL, PHP8.1, Node.js and composer.
 2. Run `npm install`
 3. Copy `backend/.env.example` into `backend/.env`
 4. Run `npm run dev`
-5. Open Vue.js Admin Panel in browser and login with
+5. Open Vue.js Admin Panel in browser and login with created , existing credentials in the database.
 
 ## Setting up the database
 
@@ -30,7 +30,7 @@ You will need MySQL, PHP8.1, Node.js and composer.
 3. Create a new MySQL database on your local machine.
 4. Import the SQL dump into the database using the following command:
 `mysql -u username -p database_name < path/to/sql/dump.sql`
-5. Replace "username" with your MySQL username, "database_name" with the name of the database you created, and "path/to/sql/dump.sql" with the path to the downloaded SQL dump file.
+5. Replace `username` with your MySQL username, `database_name` with the name of the database you created, and `path/to/sql/dump.sql` with the path to the downloaded SQL dump file.
 6. When prompted, enter your MySQL password.
 7. The SQL dump should be imported into your local database. You can now use the application with the local database.
 
