@@ -1,4 +1,4 @@
-# Laravel E-commerce Website
+# Laravel and Vue E-commerce Website
 E-commerce application built with Laravel, Vue.js, Tailwind.css and Alpine.js.
 
 ## Installation 
