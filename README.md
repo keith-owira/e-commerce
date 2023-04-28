@@ -9,7 +9,7 @@ You will need MySQL, PHP8.1, Node.js and composer.
 2. Copy `.env.example` into `.env` and configure database credentials
 3. Navigate to the project's root directory using terminal
 4. Run `composer install`
-5. Set the encryption key by executing `php artisan key:generate --ansi`
+5. Set the encryption key by executing `php artisan key:generate `
 6. Run migrations `php artisan migrate --seed`
 7. Start local server by executing `php artisan serve`
 8. Open new terminal and navigate to the project root directory
